@@ -1,0 +1,165 @@
+html,
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+/* header............... */
+.content-header {
+  padding: 5px 15px 5px 15px;
+}
+/* ....left */
+.icon-top-left {
+  padding-top: 15px;
+  margin-left: 20px;
+}
+.icon-top-left i {
+  font-size: 20px;
+  color: #f2f4f8;
+}
+/* .......right */
+.header-right div {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.img-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+/* .............body */
+.body-left {
+  width: 8%;
+  background: #2c304d;
+}
+.icon {
+  background: #252946;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px #fff;
+}
+.icon1 > .py-2 > i:hover {
+  color: #e76c90 !important;
+}
+.icon1 > i {
+  font-size: 20px;
+}
+.fa-angle-up,
+.fa-angle-down {
+  color: #98a8b4;
+  font-size: 14px;
+}
+.menu-toggle p {
+  font-size: 11px;
+  color: #98a8b4;
+  font-weight: 500;
+}
+.menu-toggle p:hover {
+  color: #e76c90;
+}
+.arrowUp,
+.arrowDown {
+  margin-top: -6px;
+}
+.arrowUp,
+.menu-toggle {
+  display: none;
+}
+.text-single {
+  color: #aea9c3;
+  font-size: 10px;
+  font-weight: 600;
+}
+/* ................. */
+.body-right {
+  width: 92%;
+  padding: 15px 10px;
+  background: #f2f3f8;
+}
+.title-right > p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #2c304d;
+}
+/* gradient */
+.title-right a span {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgb(226, 64, 129);
+  background: linear-gradient(
+    150deg,
+    rgba(226, 64, 129, 1) 36%,
+    rgba(226, 63, 131, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 7px 9px;
+  border-radius: 15px;
+}
+.hitRate {
+  background: #fff;
+}
+.txt-hitRate p {
+  /* font-size: 20px; */
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif;
+  color: #2c304d;
+}
+.happyC {
+  background: rgb(104, 89, 234);
+  background: linear-gradient(
+    155deg,
+    rgba(104, 89, 234, 1) 0%,
+    rgba(106, 203, 224, 1) 100%
+  );
+}
+.apexcharts-datalabel-value {
+  fill: #2c304d;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Noto Sans", sans-serif;
+}
+.blogPost > .txt-hitRate,
+.content-blog {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.box-blog {
+  box-shadow: 0px 0px 8px 0 #9c9898;
+}
+.text-infor {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c304d;
+}
+.timeBlog {
+  color: #bcc6cd;
+}
+.name {
+  color: #ed99b0;
+}
+.txtblog {
+  font-size: 16px;
+  font-weight: 400 !important;
+  font-family: "Noto Sans", sans-serif;
+  color: #2c304d;
+}
+.txt-infor {
+  font-size: 14px;
+}
+.icon-mes-heart div {
+  font-size: 14px;
+  color: #aea9c3;
+  font-weight: 500;
+}
+.ip-comment {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
