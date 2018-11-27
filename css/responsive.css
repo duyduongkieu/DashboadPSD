@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1199px) {
+	.body-left {
+		width: 15%;
+	}
+	.body-right {
+		width: 85%;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.body-left {
+		width: 0%;
+		position: fixed;
+		display: none;
+		/* height: 100vh; */
+
+		overflow: hidden;
+		top: 0;
+		z-index: 9999999;
+		transition: 0.7s all;
+	}
+	.icon-top-left {
+		display: block;
+	}
+	.content-left {
+		position: relative;
+		height: 100vh;
+		overflow-y: scroll;
+	}
+	.close-left {
+		display: block;
+		position: absolute;
+		right: 5px;
+		top: -13px;
+		font-size: 35px;
+	}
+	.body-right {
+		width: 100%;
+	}
+}
