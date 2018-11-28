@@ -24,7 +24,7 @@ a {
 }
 .icon-top-left i {
 	font-size: 20px;
-	color: ##4e525a;
+	color: #4e525a;
 }
 /* .......right */
 .header-right div {
@@ -233,6 +233,36 @@ a {
 	color: #fff;
 	padding: 8px 10px;
 	border-radius: 18px;
+}
+/* ..........review */
+.review-sum {
+	overflow-y: scroll;
+	height: 350px;
+}
+
+.content-review {
+	border-bottom: 1px solid #eeeeee;
+}
+.content-review:last-child {
+	border-bottom: none;
+}
+
+.review-txt-img .img {
+	padding-top: 10px;
+}
+.review-txt-img .text .name {
+	font-weight: 400;
+	color: #43465d;
+}
+.review-txt-img .text .name .spanTxt {
+	color: #98a8b4;
+}
+.review-txt-img .text .name .spanTime {
+	color: #aea9c3;
+	font-size: 13px;
+}
+.review-txt-img .heart {
+	color: #e76c90;
 }
 /* ..............table */
 .thFirst {
